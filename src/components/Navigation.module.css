@@ -1,0 +1,53 @@
+:root {
+    --red: #c43942;
+    --yellow: #F1821A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    align-items: center;
+}
+
+.logo img {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.NAVBAR {
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    font-size: 12px;
+ 
+}
+
+.BUTTON{
+    display: flex;
+    gap: 8px;
+}
+
+.b1{
+    width: 65px;
+    height : 35.56px;
+    text-align: center;
+    background: transparent;
+    color: var(--red);
+    border: solid 1px var(--red);
+    border-radius: 5px;
+}
+
+.b2{
+    width: 65px;
+    height : 35.56px;
+    text-align: center;
+    background: var(--red);
+    color: white;
+    border: solid 1px var(--red);
+    border-radius: 5px;
+}
+

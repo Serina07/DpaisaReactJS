@@ -1,12 +1,14 @@
+import React,{Component} from "react"
+import style from "./Navigation.module.css"
 const Navigation = () => {
 
     return (
-         <nav className="container">
+         <nav className={style.container}>
                 <div
-                    className="logo">
+                    className={style.logo}>
                     <img src="/images/Dpaisa 1.png" alt="logo" />
                 </div>
-                <ul>
+                <ul className={style.NAVBAR}>
                     <li href="#"> Home</li>
                     <li href="#"> Services</li>
                     <li href="#"> Privacy Policy</li>
@@ -14,11 +16,11 @@ const Navigation = () => {
                     <li href="#"> Support </li>
                     <li href="#"> About Us </li>
                 </ul>
-                <div className = "b">  
-                    <button className = "b1">
+                <div className = {style.BUTTON12}>  
+                    <button className = {style.b1}>
                         Login
                     </button>
-                    <button className = "b2">
+                    <button className = {style.b2}>
                         Sign Up
                     </button>
                 </div>
