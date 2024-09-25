@@ -26,7 +26,7 @@ nav {
  
 }
 
-.BUTTON{
+.BUTTON12{
     display: flex;
     gap: 8px;
 }
@@ -50,4 +50,3 @@ nav {
     border: solid 1px var(--red);
     border-radius: 5px;
 }
-
