@@ -8,6 +8,7 @@ nav {
     justify-content: space-between;
     height: 92px;
     align-items: center;
+    margin: 0px 16px;
 }
 
 .logo img {
@@ -29,6 +30,7 @@ nav {
 .BUTTON12{
     display: flex;
     gap: 8px;
+    /* margin: 0 0 0 16px ; */
 }
 
 .b1{
@@ -49,4 +51,13 @@ nav {
     color: white;
     border: solid 1px var(--red);
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .NAVBAR {
+        display: none;
+    }
+    .BUTTON12{
+        display: none;
+    }
 }

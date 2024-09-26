@@ -11,7 +11,7 @@
     {
       "src": "./images/6.png",
       "alt": "photo3"
-    },
+    }
   ]
   
   
