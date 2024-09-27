@@ -1,11 +1,11 @@
+
+import React ,{Component}from 'react';
+import Navigation from './components/Navigation';
 import './App.css'
 import style from './App.css';
 import './components/Navigation.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React ,{Component}from 'react';
-import Navigation from './components/Navigation';
-import Slide from './components/Slide';
-import { slides } from './data/slideData';
+import { Category } from './components/Category';
+import { slides } from './assets/slideData';
 
 
 const App = () => {
@@ -15,7 +15,8 @@ const App = () => {
                 <div>
                 <Navigation className='navi'/>
                 </div>
-                <Slide data={slides}/>
+                {/* <Slide data={slides}/> */}
+                <Category images={slides}/>
            </div>
         </div>
     );
