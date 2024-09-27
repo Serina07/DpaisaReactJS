@@ -1,4 +1,4 @@
-import { Category } from "../components/Category";
+import { Category } from "../components/category/Category";
 import img1 from '../assets/images/1.png'
 import img2 from '../assets/images/5.png'
 import img3 from '../assets/images/6.png'
